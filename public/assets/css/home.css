@@ -1,0 +1,175 @@
+* {
+    margin: 0 padding;
+}
+body {
+    background-color: #6cd7ff;
+}
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .left {
+    display: flex;
+}
+header ul {
+    border: 1px solid;
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px;
+    font-size: 20pt;
+    color: black;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showevent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.daftarevent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container_menu {
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    margin-top: 120px;
+    margin-left: -25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+.contact > img {
+    width: 920px;
+}
+.container_contact {
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.content_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel {
+    margin-top: -50px;
+    margin-left: 30px;
+    width: max-content;
+}
+
+.carousel-inner {
+    width: max-content;
+}
+
+.carousel-item {
+    width: max-content;
+}
+.logout {
+    width: 50px;
+    height: 40px;
+}
+.pamflet_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    box-sizing: border-box;
+}
+.pamflet_event {
+    /* background-color: blue; */
+    height: 600px;
+}
+.info_event {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin-left: 20px;
+}
+.namaEvent {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.lokasi {
+    background-color: white;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tanggal {
+    background-color: white;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.fee {
+    background-color: white;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.guest {
+    background-color: white;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+p {
+    width: 300px;
+    height: 10px;
+    font-size: 20pt;
+    margin-left: 20px;
+    margin-top: 1%;
+    font-weight: 800;
+    color: rgb(28, 46, 148);
+    /* background-color: black; */
+}
+b {
+    width: 300px;
+    height: 60px;
+    font-size: 20pt;
+    margin-left: 20px;
+    margin-top: 5%;
+    /* background-color: black; */
+}

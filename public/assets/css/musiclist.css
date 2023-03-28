@@ -1,0 +1,91 @@
+* {
+    margin: 0 padding;
+}
+body {
+    background-color: #6cd7ff;
+}
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left {
+    display: flex;
+}
+
+header ul {
+    border: 1px solid;
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px;
+    font-size: 20pt;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logout {
+    width: 50px;
+    height: 40px;
+}
+
+.musicmenu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_event {
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    margin-top: 215px;
+}
+
+.container_isi {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bg_music {
+    width: 920px;
+    height: min-content;
+    background-color: white;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto auto auto;
+    border-radius: 10px;
+}
+
+.musiclogo {
+    transform: translateY(-55%);
+}
+
+.container_isi {
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    transform: translateY(-30%);
+}

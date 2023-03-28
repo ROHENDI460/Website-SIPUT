@@ -1,0 +1,151 @@
+* {
+    margin: 0 padding;
+}
+body {
+    background-color: #6cd7ff;
+}
+
+form {
+    width: 355px;
+}
+
+.rectangle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.rectangleform {
+    width: 500px;
+    height: 620px;
+}
+.rectanglephoto {
+    width: 500px;
+    height: 610px;
+}
+.form-input {
+    width: 350px;
+    height: 25px;
+    margin-bottom: -2px;
+    margin-top: -10px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+}
+.upload form {
+    top: 5%;
+    left: calc(40% - 22%);
+    position: absolute;
+}
+.btnNext {
+    width: 100px;
+    height: 25px;
+    margin-left: 70%;
+    margin-top: 10%;
+    background: #134199;
+    font-size: large;
+    color: #d9d9d9;
+    border: 1px solid black;
+    border-radius: 8%;
+    cursor: pointer;
+}
+.nextrectangleform {
+    width: 750px;
+    height: 600px;
+    margin-top: 35px;
+}
+.nextupload form {
+    top: 9%;
+    left: calc(40% - 13%);
+    position: absolute;
+    width: 600px;
+}
+.kategori {
+    border: 1px solid black;
+    width: 98%;
+    height: 25px;
+    background-color: #d9d9d9;
+}
+
+datalist > option {
+    background-color: white;
+}
+
+.foto_up {
+    position: absolute;
+    transform: translateX(450px);
+    top: 0;
+    margin-top: -30px;
+    width: 450px;
+    height: 610px;
+    /* background-color: #134199; */
+    opacity: 0;
+    cursor: pointer;
+}
+
+.foto_up.error {
+    transform: translateX(100px);
+}
+
+.container_paket {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container_paket > div {
+    width: 23%;
+    position: relative;
+}
+.container_paket > div > img {
+    width: 100%;
+}
+
+.container_paket > div > input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 160px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.checkbox_paket:checked ~ img {
+    border: 2px solid rgb(60, 255, 0);
+}
+.bayar {
+    border: 1px solid black;
+    width: 450px;
+    height: 20px;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+.persetujuan {
+    margin-top: 15px;
+    cursor: pointer;
+}
+.proposal {
+    border: 1px solid black;
+    width: 450px;
+    height: 22px;
+    align-content: center;
+    background-color: rgb(209, 209, 209);
+}
+.bukti_bayar {
+    border: 1px solid black;
+    width: 450px;
+    height: 22px;
+    align-content: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.error_msg {
+    transform: translateY(-10px);
+}
+
+.error_msg.pamflet_error {
+    transform: translateY(10px);
+}
